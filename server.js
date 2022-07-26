@@ -1,8 +1,7 @@
 import { createBot } from 'whatsapp-cloud-api';
 import dotenv from "dotenv";
 import { initializeApp } from "firebase/app";
-import { updateStr} from "./firebase-utils.js";
-import { child, get, getDatabase, ref, set,  push, runTransaction } from "firebase/database";
+import { getDatabase, ref, set,  push } from "firebase/database";
 const result = dotenv.config();
 if (result.error) {
   console.log(result.error.message);
