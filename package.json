@@ -13,5 +13,8 @@
     "dotenv": "^16.0.1",
     "firebase": "^9.9.1",
     "whatsapp-cloud-api": "^0.2.5"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
